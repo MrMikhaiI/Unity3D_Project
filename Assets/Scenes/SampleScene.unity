@@ -940,7 +940,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.6
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
@@ -956,6 +956,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6161305a82234a249e2355046ac8990, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  restartDelay: 0.1
 --- !u!114 &1064204998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1008,11 +1009,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2611b4e06806b4335813409875b5b9d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  raycastDistance: 25
+  raycastDistance: 15
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
-  fallThreshold: -25
+  fallThreshold: -15
 --- !u!1 &1475553746
 GameObject:
   m_ObjectHideFlags: 0
@@ -1028,7 +1029,7 @@ GameObject:
   - component: {fileID: 1475553751}
   m_Layer: 7
   m_Name: Capsule
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1129,7 +1130,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.6
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
